@@ -117,7 +117,7 @@ const SignUp= () => {
             <div className="header-col header-nav">
               <Menu mode="horizontal" defaultSelectedKeys={["1"]}>
                 <Menu.Item key="1">
-                  <Link to="/dashboard">
+                  <Link to="/home">
                     {template}
                     <span> Dashboard</span>
                   </Link>
